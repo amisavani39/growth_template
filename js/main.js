@@ -43,3 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileMenu.classList.toggle("active")
   );
 });
+
+//menu active d
+
+document.querySelectorAll(".menu").forEach (t =>t.onclick = () => (
+        document.querySelectorAll(".menu").forEach((b) => b.classList.remove("active")),
+        t.classList.add("active")
+      )
+    );
