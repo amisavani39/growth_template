@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 });
 
-//menu active d
+//menu active 
 
 document.querySelectorAll(".menu").forEach (t =>t.onclick = () => (
         document.querySelectorAll(".menu").forEach((b) => b.classList.remove("active")),
